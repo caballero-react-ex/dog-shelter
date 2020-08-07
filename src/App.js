@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Route, Switch } from 'react-router-dom';
 import DogList from './DogList';
-import whiskey from "./images/Whiskey.jpeg";
-import tubby from "./images/Tubby.jpeg";
-import hazel from "./images/Hazel.jpeg";
+import whiskey from "./images/whiskey.jpg";
+import tubby from "./images/tubby.jpg";
+import hazel from "./images/hazel.jpg";
 import "./App.css";
 
 class App extends Component {
