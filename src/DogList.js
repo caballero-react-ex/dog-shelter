@@ -11,7 +11,7 @@ class DogList extends Component {
 
             {this.props.dogs.map(dog => (
               <div className="col-lg-4 text-center" key={dog.name}>
-                <img src={dog.src}/>
+                <img src={dog.src} alt={dog.name}/>
                 <h3 className="DogList-name">{dog.name}</h3>
               
               </div>
